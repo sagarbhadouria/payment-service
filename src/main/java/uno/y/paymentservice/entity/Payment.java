@@ -51,6 +51,7 @@ public class Payment {
     }
 
     public Payment() {
+        // No-arg constructor for JPA
     }
 
     public String getPaymentId() {

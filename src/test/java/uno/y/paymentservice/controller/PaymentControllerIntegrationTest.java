@@ -149,7 +149,7 @@ class PaymentControllerIntegrationTest {
     }
 
     @Test
-    void shouldReturnBadGatewayWhenProviderFails() throws Exception {
+    void shouldReturnInternalServerErrorWhenUnexpectedExceptionOccurs() throws Exception {
         // Given
         CreatePaymentRequest request = new CreatePaymentRequest();
         request.setAmount(new BigDecimal("99.99"));

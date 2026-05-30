@@ -1,7 +1,6 @@
 package uno.y.paymentservice.idempotency;
 
 import uno.y.paymentservice.entity.IdempotencyRecord;
-import uno.y.paymentservice.dto.request.CreatePaymentRequest;
 
 import java.util.Optional;
 

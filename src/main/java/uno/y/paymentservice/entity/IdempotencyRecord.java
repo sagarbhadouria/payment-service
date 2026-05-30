@@ -30,6 +30,7 @@ public class IdempotencyRecord {
     private LocalDateTime createdAt;
 
     public IdempotencyRecord() {
+        // No-arg constructor for JPA
     }
 
     public String getIdempotencyKey() {

@@ -19,6 +19,7 @@ public class FetchPaymentResponse {
     private LocalDateTime updatedAt;
 
     public FetchPaymentResponse() {
+        // No-arg constructor
     }
 
     public String getPaymentId() {
